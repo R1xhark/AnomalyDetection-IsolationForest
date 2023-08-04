@@ -18,7 +18,7 @@ Můžete je nainstalovat pomocí následujících příkazů:
  
 ## Použití
 Stáhněte tento repozitář na své lokální zařízení pomocí příkazu :
-`git clone https://github.com/username/repo-name.git`
+`git clone https://github.com/username/AnomalyDetection-IsolationForest`
 
 Ve svém terminálu přejděte do adresáře, kde je tento skript umístěn.
 
