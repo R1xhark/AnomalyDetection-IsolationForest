@@ -14,7 +14,7 @@ Tento algoritmus je součástí knihovny `sklearn.ensemble` v Pythonu, která je
 Před spuštěním skriptu si ujistěte, že máte nainstalované potřebné závislosti. 
 Můžete je nainstalovat pomocí následujících příkazů:
 
-bash
+'''bash
 pip install pandas
 pip install scikit-learn
 
@@ -29,12 +29,11 @@ python script.py <file_path>
 
 ## poznamka: <file_path> je cesta k CSV souboru obsahujícímu bezpečnostní data.
 
-##Struktura kódu
+## Struktura kódu
 script.py: Hlavní skript pro detekci anomálií.
 utils.py: Obsahuje funkce pro načtení dat a předzpracování, které jsou použity v script.py.
 anomaly_detection.py: Obsahuje funkci pro detekci anomálií s použitím algoritmu Isolation Forest.
 
-## Funkce
 ## 'load_data(file_path)'
 Tato funkce načte data ze zadaného CSV souboru a vrátí je ve formátu DataFrame.
 
