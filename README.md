@@ -17,7 +17,8 @@ Můžete je nainstalovat pomocí následujících příkazů:
 `pip install pandas`&&`pip install scikit-learn`
  
 ## Použití
-Stáhněte tento repozitář na své lokální zařízení.
+Stáhněte tento repozitář na své lokální zařízení pomocí příkazu :
+`git clone https://github.com/username/repo-name.git`
 
 Ve svém terminálu přejděte do adresáře, kde je tento skript umístěn.
 
