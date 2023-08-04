@@ -6,9 +6,6 @@ def load_data(file_path):
     data = pd.read_csv(file_path)
     return data
 
-# Rest of the code for preprocessing and anomaly detection remains unchanged
-
-# Main function
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("file_path", type=str, help="Path to the CSV file containing security data")
