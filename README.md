@@ -34,13 +34,13 @@ Spusťte skript následujícím způsobem:
 
 <strong>Zmen jmena promenych pls toto je hruza</strong>
 
-## 'load_data(file_path)'
+### 'load_data(file_path)'
 Tato funkce načte data ze zadaného CSV souboru a vrátí je ve formátu DataFrame.
 
-## 'preprocess_data(data)'
+### 'preprocess_data(data)'
 Tato funkce provádí předzpracování dat. 
 
-## 'detect_anomalies(data)'
+### 'detect_anomalies(data)'
 Tato funkce provádí detekci anomálií pomocí algoritmu Isolation Forest. 
 
 ## Výstupy
