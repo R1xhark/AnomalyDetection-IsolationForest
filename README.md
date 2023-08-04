@@ -1,7 +1,7 @@
 # Readme
-** Autor : Richard Dubny **
-** Projekt : Anomaly Detection in Python **
-** Rok: 2023 **
+**Autor : Richard Dubny**
+**Projekt : Anomaly Detection in Python**
+**Rok: 2023**
 
 ## Detekce Anomálií s Isolation Forest
 
@@ -28,9 +28,11 @@ Spusťte skript následujícím způsobem:
 ** poznamka: <file_path> je cesta k CSV souboru obsahujícímu bezpečnostní data.
 
 ## Struktura kódu
-script.py: Hlavní skript pro detekci anomálií.
-utils.py: Obsahuje funkce pro načtení dat a předzpracování, které jsou použity v script.py.
-anomaly_detection.py: Obsahuje funkci pro detekci anomálií s použitím algoritmu Isolation Forest.
+**script.py**: Hlavní skript pro detekci anomálií.
+**utils.py**: Obsahuje funkce pro načtení dat a předzpracování, které jsou použity v script.py.
+**anomaly_detection.py**: Obsahuje funkci pro detekci anomálií s použitím algoritmu Isolation Forest.
+
+<strong>Zmen jmena promenych pls toto je hruza</strong>
 
 ## 'load_data(file_path)'
 Tato funkce načte data ze zadaného CSV souboru a vrátí je ve formátu DataFrame.
@@ -52,6 +54,6 @@ Poznámka:Ujistěte se, že měníte pouze implementaci funkcí preprocess_data(
 Poznámka: Nahraďte `<file_path>` odpovídajícími skutečnými cestami k souborům a provedenými 
 
 ## Automatizace scriptu
-** Windows (task scheluder)
+**Windows (task scheluder)**
 1.  Otevřete Task Scheluder z nabídky start.
 2.  Klikněte na "Create Basic task" or "Create task" (Záleží na vaší verzi Windows).
