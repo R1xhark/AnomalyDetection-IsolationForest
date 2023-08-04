@@ -1,10 +1,10 @@
-## Readme ##
-------------
-Autor : Richard Dubny
-Projekt : Anomaly Detection in Python
-Rok: 2023
+# Readme
+# ------------
+** Autor : Richard Dubny
+** Projekt : Anomaly Detection in Python
+**Rok: 2023
 
-# Detekce Anomálií s Isolation Forest
+## Detekce Anomálií s Isolation Forest
 
 Tento skript implementuje detekci anomálií pomocí algoritmu Isolation Forest.
 Tento algoritmus je součástí knihovny `sklearn.ensemble` v Pythonu, která je součástí balíčku scikit-learn.
@@ -26,7 +26,7 @@ Spusťte skript následujícím způsobem:
 
 `python script.py <file_path>`
 
-poznamka: <file_path> je cesta k CSV souboru obsahujícímu bezpečnostní data.
+** poznamka: <file_path> je cesta k CSV souboru obsahujícímu bezpečnostní data.
 
 ## Struktura kódu
 script.py: Hlavní skript pro detekci anomálií.
@@ -53,5 +53,6 @@ Poznámka:Ujistěte se, že měníte pouze implementaci funkcí preprocess_data(
 Poznámka: Nahraďte `<file_path>` odpovídajícími skutečnými cestami k souborům a provedenými 
 
 ## Automatizace scriptu
-Windows (task scheluder)
-1.Otevrete Task Scheluder z nabidky start
+** Windows (task scheluder)
+1.  Otevřete Task Scheluder z nabídky start.
+2.  Klikněte na "Create Basic task" or "Create task" (Záleží na vaší verzi Windows).
