@@ -15,8 +15,8 @@ Před spuštěním skriptu si ujistěte, že máte nainstalované potřebné zá
 Můžete je nainstalovat pomocí následujících příkazů:
 
 '''bash
-pip install pandas
-pip install scikit-learn
+`pip install pandas`
+`pip install scikit-learn`
 
 ## Použití
 Stáhněte tento repozitář na své lokální zařízení.
