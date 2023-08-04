@@ -1,8 +1,7 @@
 # Readme
-# ------------
-** Autor : Richard Dubny
-** Projekt : Anomaly Detection in Python
-**Rok: 2023
+** Autor : Richard Dubny **
+** Projekt : Anomaly Detection in Python **
+** Rok: 2023 **
 
 ## Detekce Anomálií s Isolation Forest
 
