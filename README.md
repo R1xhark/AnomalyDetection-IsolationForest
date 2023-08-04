@@ -14,10 +14,8 @@ Tento algoritmus je součástí knihovny `sklearn.ensemble` v Pythonu, která je
 Před spuštěním skriptu si ujistěte, že máte nainstalované potřebné závislosti. 
 Můžete je nainstalovat pomocí následujících příkazů:
 
-'''bash
-`pip install pandas`
-`pip install scikit-learn`
-
+`pip install pandas`&&`pip install scikit-learn`
+ 
 ## Použití
 Stáhněte tento repozitář na své lokální zařízení.
 
@@ -25,7 +23,7 @@ Ve svém terminálu přejděte do adresáře, kde je tento skript umístěn.
 
 Spusťte skript následujícím způsobem:
 
-python script.py <file_path>
+`python script.py <file_path>`
 
 ## poznamka: <file_path> je cesta k CSV souboru obsahujícímu bezpečnostní data.
 
