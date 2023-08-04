@@ -26,7 +26,7 @@ Spusťte skript následujícím způsobem:
 
 `python script.py <file_path>`
 
-## poznamka: <file_path> je cesta k CSV souboru obsahujícímu bezpečnostní data.
+poznamka: <file_path> je cesta k CSV souboru obsahujícímu bezpečnostní data.
 
 ## Struktura kódu
 script.py: Hlavní skript pro detekci anomálií.
@@ -48,6 +48,10 @@ Původní data: Předzpracovaná tabulka s pár řádky původních načtených 
 Předzpracovaná data: Tabulka s pár řádky dat po předzpracování.
 Detekované anomálie: Tabulka obsahující řádky, které byly detekovány jako anomálie algoritmem Isolation Forest.
 
-## Poznámka:Ujistěte se, že měníte pouze implementaci funkcí preprocess_data() a detect_anomalies() ve skriptu script.py. Při jakýchkoli úpravách nezapomeňte uložit soubory a spustit skript znovu.
+Poznámka:Ujistěte se, že měníte pouze implementaci funkcí preprocess_data() a detect_anomalies() ve skriptu script.py. Při jakýchkoli úpravách nezapomeňte uložit soubory a spustit skript znovu.
 
-## Poznámka: Nahraďte `<file_path>` odpovídajícími skutečnými cestami k souborům a provedenými 
+Poznámka: Nahraďte `<file_path>` odpovídajícími skutečnými cestami k souborům a provedenými 
+
+## Automatizace scriptu
+Windows (task scheluder)
+1.Otevrete Task Scheluder z nabidky start
