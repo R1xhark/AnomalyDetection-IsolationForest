@@ -14,7 +14,7 @@ Tento algoritmus je součástí knihovny `sklearn.ensemble` v Pythonu, která je
 Před spuštěním skriptu si ujistěte, že máte nainstalované potřebné závislosti. 
 Můžete je nainstalovat pomocí následujících příkazů:
 
-```bash
+bash
 pip install pandas
 pip install scikit-learn
 
