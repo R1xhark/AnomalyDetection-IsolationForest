@@ -1,61 +1,46 @@
-# Readme
-**Autor : Richard Dubny**
+# Skript pro Detekci Anomálií
 
-**Projekt : Anomaly Detection in Python**
+Tento skript načítá bezpečnostní data z CSV souboru, provádí jejich předzpracování a detekci anomálií pomocí algoritmu Isolation Forest.
 
-**Rok: 2023**
+## Jak začít
 
-## Detekce Anomálií s Isolation Forest
+Následující pokyny vám pomohou spustit skript na vašem lokálním stroji pro účely předzpracování dat a detekce anomálií.
 
-Tento skript implementuje detekci anomálií pomocí algoritmu Isolation Forest.
-Tento algoritmus je součástí knihovny `sklearn.ensemble` v Pythonu, která je součástí balíčku scikit-learn.
+### Předpoklady
 
-## Instalace
+Ujistěte se, že máte nainstalované následující knihovny:
 
-Před spuštěním skriptu si ujistěte, že máte nainstalované potřebné závislosti. 
-Můžete je nainstalovat pomocí následujících příkazů:
+- pandas
+- scikit-learn
 
-`pip install pandas`&&`pip install scikit-learn`
- 
-## Použití
-Stáhněte tento repozitář na své lokální zařízení pomocí příkazu :
-`git clone https://github.com/username/AnomalyDetection-IsolationForest`
+Můžete je nainstalovat následovně:
 
-Ve svém terminálu přejděte do adresáře, kde je tento skript umístěn.
+```pip install pandas scikit-learn
 
-Spusťte skript následujícím způsobem:
 
-`python script.py <file_path>`
+### Použití
 
-**poznamka** : <file_path> je cesta k CSV souboru obsahujícímu bezpečnostní data.
+1. Naklonujte tento repozitář:
 
-## Struktura kódu
-**script.py**: Hlavní skript pro detekci anomálií.
-**utils.py**: Obsahuje funkce pro načtení dat a předzpracování, které jsou použity v script.py.
-**anomaly_detection.py**: Obsahuje funkci pro detekci anomálií s použitím algoritmu Isolation Forest.
+```git clone https://github.com/yourusername/anomaly-detection-script.git
 
-<strong>Zmen jmena promenych pls toto je hruza</strong>
+2. Přejděte do složky projektu:
 
-### 'load_data(file_path)'
-Tato funkce načte data ze zadaného CSV souboru a vrátí je ve formátu DataFrame.
+```cd anomaly-detection-script
 
-### 'preprocess_data(data)'
-Tato funkce provádí předzpracování dat. 
+3. Spusťte skript:
 
-### 'detect_anomalies(data)'
-Tato funkce provádí detekci anomálií pomocí algoritmu Isolation Forest. 
+```python script.py cesta/k/souboru/data.csv
 
-## Výstupy
-Po spuštění skriptu budou zobrazeny následující informace:
-Původní data: Předzpracovaná tabulka s pár řádky původních načtených dat.
-Předzpracovaná data: Tabulka s pár řádky dat po předzpracování.
-Detekované anomálie: Tabulka obsahující řádky, které byly detekovány jako anomálie algoritmem Isolation Forest.
+Nahraďte `cesta/k/souboru/data.csv` skutečnou cestou k vašemu CSV souboru s bezpečnostními daty.
 
-Poznámka:Ujistěte se, že měníte pouze implementaci funkcí preprocess_data() a detect_anomalies() ve skriptu script.py. Při jakýchkoli úpravách nezapomeňte uložit soubory a spustit skript znovu.
+## Přizpůsobení
 
-Poznámka: Nahraďte `<file_path>` odpovídajícími skutečnými cestami k souborům a provedenými 
+Můžete přizpůsobit skript úpravou kroků předzpracování v funkci `preprocess_data` podle charakteristik vašich dat.
 
-## Automatizace scriptu
-**Windows (task scheluder)**
-1.  Otevřete Task Scheluder z nabídky start.
-2.  Klikněte na "Create Basic task" or "Create task" (Záleží na vaší verzi Windows).
+## Autor
+**- GitHub: R1charxk (https://github.com/R1charxk)**
+
+## Licence
+
+Tento projekt je licencován pod licencí MIT - podrobnosti naleznete v s
