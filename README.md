@@ -15,22 +15,22 @@ Ujistěte se, že máte nainstalované následující knihovny:
 
 Můžete je nainstalovat následovně:
 
-```pip install pandas scikit-learn
+```pip install pandas scikit-learn```
 
 
 ### Použití
 
 1. Naklonujte tento repozitář:
 
-```git clone https://github.com/yourusername/anomaly-detection-script.git
+```git clone https://github.com/yourusername/anomaly-detection-script.git```
 
 2. Přejděte do složky projektu:
 
-```cd anomaly-detection-script
+```cd anomaly-detection-script```
 
 3. Spusťte skript:
 
-```python script.py cesta/k/souboru/data.csv
+```python script.py cesta/k/souboru/data.csv```
 
 Nahraďte `cesta/k/souboru/data.csv` skutečnou cestou k vašemu CSV souboru s bezpečnostními daty.
 
