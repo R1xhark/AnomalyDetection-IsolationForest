@@ -7,26 +7,20 @@ def load_data(file_path):
     return data
 
 def preprocess_data(data):
-    columns_to_drop = ['col_to_drop_1', 'col_to_drop_2']
-    data = data.drop(columns=columns_to_drop)
-
-    # Handling missing values
+    collums_to_drop = ['collums_to_drop1', 'collums_to_drop2']
+    data = data.drop(columns=collums_to_drop)
+    
     data.fillna(0, inplace=True)
 
-    # Scaling numerical features (if applicable)
     from sklearn.preprocessing import StandardScaler
     scaler = StandardScaler()
-    numerical_columns = ['num_feature_1', 'num_feature_2']
-    data[numerical_columns] = scaler.fit_transform(data[numerical_columns])
+    numerické_sloupce = ['numeric_attribute_1', 'numeric_attribute_2']
+    data[numerické_sloupce] = scaler.fit_transform(data[numerické_sloupce])
 
-    # Encoding categorical variables (if applicable)
-    categorical_columns = ['cat_feature']
-    data = pd.get_dummies(data, columns=categorical_columns, drop_first=True)
+    kategorické_sloupce = ['categorical_attribute']
+    data = pd.get_dummies(data, columns=categorical_attribute, drop_first=True)
 
-    # Feature engineering (if applicable)
-    data['new_feature'] = data['num_feature_1'] + data['num_feature_2']
-
-    return data
+    data['nový_příznak'] = data['numeric_attribute_1'] + data['numeric_attribute_1']
 
     return data
 
@@ -37,19 +31,20 @@ def detect_anomalies(data):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("file_path", type=str, help="Path to the CSV file containing security data")
+    parser.add_argument("file_path", type=str, help="Cesta k CSV souboru obsahujícímu bezpečnostní data")
     args = parser.parse_args()
 
     file_path = args.file_path
     data = load_data(file_path)
-    print("Original Data:")
+    print("Původní Data:")
     print(data.head())
 
     data = preprocess_data(data)
-    print("\nPreprocessed Data:")
+    print("\nZpracovaná Data:")
     print(data.head())
 
     data = detect_anomalies(data)
     anomalies = data[data['anomaly'] == -1]
-    print("\nAnomalies Detected:")
+    print("\nDetekované Anomalie:")
     print(anomalies)
+
