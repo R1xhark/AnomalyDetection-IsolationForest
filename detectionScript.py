@@ -7,7 +7,27 @@ def load_data(file_path):
     return data
 
 def preprocess_data(data):
-   #in progress
+    columns_to_drop = ['col_to_drop_1', 'col_to_drop_2']
+    data = data.drop(columns=columns_to_drop)
+
+    # Handling missing values
+    data.fillna(0, inplace=True)
+
+    # Scaling numerical features (if applicable)
+    from sklearn.preprocessing import StandardScaler
+    scaler = StandardScaler()
+    numerical_columns = ['num_feature_1', 'num_feature_2']
+    data[numerical_columns] = scaler.fit_transform(data[numerical_columns])
+
+    # Encoding categorical variables (if applicable)
+    categorical_columns = ['cat_feature']
+    data = pd.get_dummies(data, columns=categorical_columns, drop_first=True)
+
+    # Feature engineering (if applicable)
+    data['new_feature'] = data['num_feature_1'] + data['num_feature_2']
+
+    return data
+
     return data
 
 def detect_anomalies(data):
