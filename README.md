@@ -27,7 +27,7 @@ Spusťte skript následujícím způsobem:
 
 `python script.py <file_path>`
 
-** poznamka: <file_path> je cesta k CSV souboru obsahujícímu bezpečnostní data.
+**poznamka** : <file_path> je cesta k CSV souboru obsahujícímu bezpečnostní data.
 
 ## Struktura kódu
 **script.py**: Hlavní skript pro detekci anomálií.
